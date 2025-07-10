@@ -1,4 +1,4 @@
-import ClientDTO from "../schema/client.schema";
+import ClientDTO from "../schema/client.schema.js";
 import mongoose from "mongoose";
 
 const clientSchema = new mongoose.Schema({
